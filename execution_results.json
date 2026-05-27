@@ -1,0 +1,36 @@
+{
+  "execution_time": "2026-05-26T21:56:41.833351",
+  "total_steps": 4,
+  "successful_steps": 2,
+  "failed_steps": 2,
+  "steps": [
+    {
+      "step": "Dashboard",
+      "description": "Navigate to Dashboard",
+      "status": "success",
+      "xpath": "//a[contains(text(), 'Dashboard')]",
+      "timestamp": "2026-05-26T21:56:16.730603"
+    },
+    {
+      "step": "Approvals",
+      "description": "Click Approvals menu",
+      "status": "success",
+      "xpath": "//a[contains(text(), 'Approvals')] | //button[contains(text(), 'Approvals')]",
+      "timestamp": "2026-05-26T21:56:18.784767"
+    },
+    {
+      "step": "Decisions_Dropdown",
+      "description": "Open Decisions dropdown",
+      "status": "failed",
+      "xpath": "//select[@id='decisions'] | //div[contains(@class, 'decisions')]//button",
+      "timestamp": "2026-05-26T21:56:29.799582"
+    },
+    {
+      "step": "Notifications",
+      "description": "Click Notifications at the top",
+      "status": "failed",
+      "xpath": "//a[contains(text(), 'Notifications')] | //button[contains(@class, 'notification')]",
+      "timestamp": "2026-05-26T21:56:41.833207"
+    }
+  ]
+}
